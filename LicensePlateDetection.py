@@ -279,7 +279,6 @@ def main():
     # each pixel array contains 8 bit integer values between 0 and 255 encoding the color values
     (image_width, image_height, px_array_r, px_array_g, px_array_b) = readRGBImageToSeparatePixelArrays(input_filename)
 
-    # STUDENT IMPLEMENTATION here
     px_array = turngrey(px_array_r, px_array_g, px_array_b, image_width, image_height)
     px_array = stretch(px_array, image_width, image_height)
     
