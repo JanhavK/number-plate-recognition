@@ -1,7 +1,7 @@
 # number-plate-recognition
 uses image processing to find the number plate in an image provided <br>
 • This project was made using Python<br>
-• I decided to make it challenge myself on this project and apply algorithms to manipulate the pixel arrays of an image to identify numberplates in images.<br>
+• I decided to make it a challenge on this project and apply algorithms to manipulate the pixel arrays of an image to identify numberplates in images.<br>
 • I first converted the colored image provided into a greyscale one and then stretched the pixel color values to be in a 1-256 scale across the image.<br>
 • I then computed the mean of the pixels in a 5x5 box to blur the image.<br>
 • I then stretched it once again and threshed the image.<br>
