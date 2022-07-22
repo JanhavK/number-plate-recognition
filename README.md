@@ -8,4 +8,4 @@ uses image processing to find the number plate in an image provided <br>
 • I then applied various rounds of dilution and erotion to make the number plate stand out from the rest of the image.<br>
 • Lastly I created a DFS binary tree and made every since object on the screen numbered so that I could determine which object has a ratio of a common numberplate and the most amount of pixels attached.<br>
 • Once I found the number plate I extended the program to put a box around this number plate, determine the numberplate as text, crop out the numberplate, find the color of the car and blur the license plate.<br>
-• I found this project fun to undetake, applying the formulas I gained in a course I had just completed on computer graphics and virtual lighting was quite satisfying.
+• I found this project fun to undertake, applying the formulas I gained in a course I had just completed on computer graphics and virtual lighting was quite satisfying.
